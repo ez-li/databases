@@ -1,10 +1,19 @@
-CREATE DATABASE chat;
+-- CREATE DATABASE chat;
 
 USE chat;
 
+-- DROP TABLE messages;
+
 CREATE TABLE messages (
   /* Describe your table here.*/
+  ID int not null,
+  username varchar(20),
+  message varchar(280),
+  roomname varchar(280),
+  PRIMARY KEY (ID)
 );
+
+INSERT INTO messages
 
 /* Create other tables and define schemas for them here! */
 
