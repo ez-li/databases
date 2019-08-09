@@ -10,6 +10,13 @@ router.get('/users', controller.users.get);
 
 router.post('/users', controller.users.post);
 
+// router.get('/', function (req, res) {
+//   res.send();
+// })
+
+// router.post('/', function (req, res) {
+//   res.send('hi');
+// })
 
 module.exports = router;
 
